@@ -5,7 +5,7 @@ import PrimaryButton from "../../components/Buttons/PrimaryButton";
 
 const Home = () => {
   return (
-    <div className="max-w-xl mx-auto mt-2 p-4">
+    <div className="max-w-xl mx-auto mt-2 py-4 px-6">
       <div className="flex items-center justify-between py-4">
         <IoIosArrowBack size={20} />
         <div>
@@ -16,7 +16,7 @@ const Home = () => {
 
       <div className="bg-gradient-to-r from-[#0037C5] to-[#08005F] p-2 flex items-center justify-between rounded-[9px] px-4 py-6">
         <p className="text-white font-[700]">New Booking In 2 Minutes</p>
-        <PrimaryButton label={"Book Now"} isSelected={true} border = {true} />
+        <PrimaryButton label={"Book Now"} isSelected={true} border={true} />
       </div>
       <div>
         <Card />

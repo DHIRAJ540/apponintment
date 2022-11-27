@@ -6,7 +6,7 @@ import DoctorImg from "../../assets/doctor.png";
 
 const Card = () => {
   return (
-    <div className="bg-[#f7f7f7] px-2 py-6 rounded-[9px] my-6">
+    <div className="bg-[#f7f7f7] px-2 py-6 rounded-[9px] my-[13px]">
       <div className="flex items-center justify-between">
         <PrimaryButton label={"Clinic"} isSelected={true} />
         <PrimaryButton label={"Test"} isSelected={false} />
