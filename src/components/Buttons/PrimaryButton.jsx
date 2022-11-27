@@ -1,13 +1,16 @@
 import React from "react";
+import "./button.css";
 
-const PrimaryButton = ({ label, isSelected }) => {
+const PrimaryButton = ({ label, isSelected, border }) => {
   return (
     <div
       className={`${
         isSelected
-          ? "bg-gradient-to-r from-[#FF8412] to-[#B1008A] text-white"
-          : "bg-gray-300 text-black"
-      }  p-2 rounded-full min-w-[70px] border-2 cursor-pointer shadow-xl `}
+          ? "primary_gradient text-white font-[700]"
+          : "bg-gray-300 text-black font-[500]"
+      }  px-2 py-1 rounded-full min-w-[70px] ${
+        border ? "border-[1px]" : ""
+      } cursor-pointer custom_shadow  text-[13px] min-h-[35px] flex items-center justify-center`}
     >
       {label}
     </div>

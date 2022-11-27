@@ -1,0 +1,16 @@
+.primary_gradient {
+  background: linear-gradient(
+    83.18deg,
+    #ff8412 -30.08%,
+    #d23758 60.11%,
+    #b1008a 97.49%
+  );
+}
+
+.secondary_gradient {
+  background: linear-gradient(93.12deg, #b1008a -19.35%, #060d67 122.43%);
+}
+
+.gray_gradient {
+  background: linear-gradient(94.33deg, #f1f1f1 22.44%, #f1f1f1 124.46%);
+}
