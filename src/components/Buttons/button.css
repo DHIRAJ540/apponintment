@@ -13,4 +13,5 @@
 
 .gray_gradient {
   background: linear-gradient(94.33deg, #f1f1f1 22.44%, #f1f1f1 124.46%);
+  box-shadow: 3px -2px 4px #ffffff, 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
